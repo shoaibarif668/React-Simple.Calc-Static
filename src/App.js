@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./Sass/style.css"
+import Add from "./Components/Addition.js"
+import Sub from "./Components/Subtraction.js"
+import Mult from "./Components/Multiplication.js"
+import Divi from "./Components/Division.js"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <section>
+      <div className="wrapper">
+        <p>{Add(10,24)}</p>
+        <p>{Sub(10,24)}</p>
+        <p>{Mult(10,8)}</p>
+        <p>{Divi(10,24)}</p>
+      </div>  
+    </section>
+    
+    </>
   );
 }
 

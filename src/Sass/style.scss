@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    transition: ease-in-out;
+    background: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .wrapper {
+        border-radius: 7px;
+        box-shadow: 1px 10px 10px 10px white;
+        background: rgb(63, 63, 63);
+        width: max-content;
+        padding: 30px;
+
+        .calc h3{
+            font-size: 24px;
+            color: white;
+            padding-bottom: 10px;
+        }
+        .output1{
+            color: green;
+        }
+        .output2{
+            color: orange;
+        }
+        .output3{
+            color: lightblue;
+        }
+        .output4{
+            color: red;
+        }
+    }
+}
+
+
+
